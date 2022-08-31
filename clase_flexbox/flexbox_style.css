@@ -1,0 +1,41 @@
+/* flexbox "solo" es para modificar a los hijos desde las propiedades de los padres */
+
+.padre {
+  display: flex;
+  /* flex direction acomoda todos los hijos en forma de columna*/
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row-reverse; */
+  /* flex-wrap crea un contenedor multilnea */
+  flex-wrap: wrap;
+  /* justify-content centrar, de forma horizontal elementos y mas... */  
+  justify-content: center;
+  /* align-items centra elementos de forma vertical de contenedores unilinea (sin flex-wrap) */
+  /* align-items: center; */
+  /* contenedores multilinea (flex-wrap) */
+  align-content: center;
+  background-color: rgb(37, 34, 34);
+  height: 600px;
+  width: 100vw;
+}
+
+.hijo {
+  background-color: rgb(29, 87, 144);
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.item1{
+  flex-grow: 3;
+  order: 4;
+}
+
+.item2{
+  flex-grow: 1;
+  order: 3;  
+}

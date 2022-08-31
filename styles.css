@@ -1,0 +1,142 @@
+/* . es un selector de tipo clase */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=League+Spartan:wght@400;500;700&display=swap');
+
+:root{
+  font-family: 'Barlow', sans-serif;
+  --dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  /* hsl rgb hexadecimales */
+  color: #C4FD75;
+}
+
+.title{
+  color: var(--dark-magenta);
+}
+
+.start {
+  content: url('./images/icon-star.svg');
+}
+
+.rated ul{
+  list-style: none;  
+}
+
+.rated-card{
+  padding: 16px;
+  margin: 20px;    
+  box-sizing: border-box;
+  width: 380px;  
+  background-color: var(--light-grayish-magenta);
+  border-radius: 8px;
+
+}
+
+/* display block => acomoda el contenido un una linea para el solo */
+/* display inline =>  */
+
+.rated-card p{
+  display: inline;
+  margin: 0 10px 0 16px;
+  color: var(--dark-magenta);
+  font-weight: bold;
+}
+
+.card-user {
+  min-height: 150px;
+  width: 350px;
+  background-color: var(--dark-magenta);
+  padding: 16px;
+  margin: 16px;
+  border-radius: 16px;
+  color: var(--light-grayish-magenta);
+}
+
+.card-user h6{
+  font-size: 23px;
+  margin: 0;
+}
+
+.card-user strong {
+  color: var(--soft-pink);
+  font-weight: 400;
+}
+
+.card-user img {
+  /* display: none; */
+  /* visibility: hidden; */
+  border-radius: 999px;
+  width: 80px;
+  height: 80px;
+}
+
+.card-top-user {
+  /* relative solo para contenedores padre */
+  position: relative;
+}
+
+/* libera al contedor y top, left, right, bottom */
+/* .card-top-user h6 {
+  position: absolute;
+  top: 0;
+  right: 50%;
+} */
+
+/* .card-top-user strong{
+  position: absolute;
+  top: 30px;
+  right: 50%;
+} */
+
+.card-top-user {
+  display: flex;
+  align-items: center;
+
+}
+
+.card-top-user div {
+  margin-left: 30px;
+  display: flex;  
+  flex-direction: column;
+}
+
+#cabezara-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buscar {
+  border: none;
+  width: 230px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+button{
+  border: none;
+  width: 230px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  font-family: 'Barlow', sans-serif;
+}
+
+button:hover{
+  border: 1px solid red;
+}
+
