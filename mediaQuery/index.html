@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href=""
+      rel="stylesheet"
+    />
+    <style>
+      .box {
+        background-color: rgb(46, 85, 130);
+        width: 30rem;
+        min-height: 10rem;
+      }
+
+      @media (min-width: 640px) {
+        .box{
+          background-color: red;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .box{
+          background-color: yellow;
+        }
+      }
+
+      @media (min-width: 1024px) {
+        .box{
+          background-color: green;
+        }
+      }
+
+      @media (min-width: 1536px) {
+        .box{
+          background-color: black;
+        }
+      }
+
+      /* media     tamaño */
+      @media (min-width: 60rem) {
+        /* la clase que quiero modificar */
+        .box{
+          background-color: white;
+          border: 5px dotted red;
+        }
+      }
+
+    </style>
+    <title>Clase Media Query</title>
+  </head>
+  <body>
+    <h1>Clase Media Query</h1>
+    <div class="box">
+
+    </div>
+  </body>
+</html>

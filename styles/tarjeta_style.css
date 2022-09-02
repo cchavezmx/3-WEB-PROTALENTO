@@ -1,16 +1,11 @@
 .card-user {
   min-height: 150px;
-  width: 350px;
+  width: 21.56rem;
   background-color: var(--dark-magenta);
   padding: 16px;
-  margin: 16px 0px;
+  margin: 16px;
   border-radius: 16px;
-  color: var(--light-grayish-magenta);
-  transform: translate(0, -10px); 
-}
-
-.card-user:active{
-  transform: translate(0, -10px)
+  color: var(--light-grayish-magenta);  
 }
 
 .card-user h6{
@@ -23,29 +18,14 @@
   font-weight: 400;
 }
 
-.card-user img {
-  /* display: none; */
-  /* visibility: hidden; */
+.card-user img {  
   border-radius: 999px;
   width: 80px;
   height: 80px;
 }
 
-.card-top-user {
-  /* relative solo para contenedores padre */
-  position: relative;
-}
 
 .card-top-user {
-  display: flex;
+  display: flex;  
   align-items: center;
-
-}
-
-.card-up-translate {
-  transform: translate(0, -10px);  
-}
-
-.card-down-translate { 
-  transform: translate(0, 10px);
 }
