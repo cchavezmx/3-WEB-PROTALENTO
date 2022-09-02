@@ -1,6 +1,15 @@
 /* . es un selector de tipo clase */
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=League+Spartan:wght@400;500;700&display=swap');
 
+html{
+  height: 100vh;
+}
+
+body{
+  padding: 16px;
+}
+
+
 :root{
   font-family: 'Barlow', sans-serif;
   --dark-magenta: hsl(300, 43%, 22%);
@@ -11,6 +20,8 @@
 }
 
 .attribution {
+  position: absolute;
+  bottom: 0px;
   font-size: 11px;
   text-align: center;
 }
@@ -24,17 +35,25 @@
   color: var(--dark-magenta);
 }
 
-.start {
-  content: url('./images/icon-star.svg');
+.title h1{
+  font-size: 50px;
 }
 
-.rated ul{
-  list-style: none;  
+.start {
+  content: url('../images/icon-star.svg');
+}
+
+.rated ul{  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+  list-style: none;
+
 }
 
 .rated-card{
   padding: 16px;
-  margin: 20px;    
+  margin: 8px;  
   box-sizing: border-box;
   width: 380px;  
   background-color: var(--light-grayish-magenta);
@@ -52,39 +71,6 @@
   font-weight: bold;
 }
 
-.card-user {
-  min-height: 150px;
-  width: 350px;
-  background-color: var(--dark-magenta);
-  padding: 16px;
-  margin: 16px;
-  border-radius: 16px;
-  color: var(--light-grayish-magenta);
-}
-
-.card-user h6{
-  font-size: 23px;
-  margin: 0;
-}
-
-.card-user strong {
-  color: var(--soft-pink);
-  font-weight: 400;
-}
-
-.card-user img {
-  /* display: none; */
-  /* visibility: hidden; */
-  border-radius: 999px;
-  width: 80px;
-  height: 80px;
-}
-
-.card-top-user {
-  /* relative solo para contenedores padre */
-  position: relative;
-}
-
 /* libera al contedor y top, left, right, bottom */
 /* .card-top-user h6 {
   position: absolute;
@@ -98,12 +84,9 @@
   right: 50%;
 } */
 
-.card-top-user {
-  display: flex;
-  align-items: center;
-
-}
-
+/* 
+  Estilos de tarjetas
+*/
 .card-top-user div {
   margin-left: 30px;
   display: flex;  
@@ -111,8 +94,15 @@
 }
 
 #cabezara-2 {
+  width: 100%;
+  display: flex;  
+  justify-content: space-between;
+}
+
+#cabezara-1{
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  margin-bottom: 80px;  
   justify-content: center;
 }
 
@@ -140,3 +130,8 @@ button:hover{
   border: 1px solid red;
 }
 
+
+
+.title, .rated {
+  width: 50%;
+}

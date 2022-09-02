@@ -1,0 +1,51 @@
+.card-user {
+  min-height: 150px;
+  width: 350px;
+  background-color: var(--dark-magenta);
+  padding: 16px;
+  margin: 16px 0px;
+  border-radius: 16px;
+  color: var(--light-grayish-magenta);
+  transform: translate(0, -10px); 
+}
+
+.card-user:active{
+  transform: translate(0, -10px)
+}
+
+.card-user h6{
+  font-size: 23px;
+  margin: 0;
+}
+
+.card-user strong {
+  color: var(--soft-pink);
+  font-weight: 400;
+}
+
+.card-user img {
+  /* display: none; */
+  /* visibility: hidden; */
+  border-radius: 999px;
+  width: 80px;
+  height: 80px;
+}
+
+.card-top-user {
+  /* relative solo para contenedores padre */
+  position: relative;
+}
+
+.card-top-user {
+  display: flex;
+  align-items: center;
+
+}
+
+.card-up-translate {
+  transform: translate(0, -10px);  
+}
+
+.card-down-translate { 
+  transform: translate(0, 10px);
+}

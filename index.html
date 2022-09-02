@@ -13,8 +13,8 @@
     />
     <link 
       rel="stylesheet" 
-      href="./styles.css"
-    />
+      href="./styles/main.css"
+    />    
     <!-- tags mas importantes del el HEAD -->
     <title>Frontend Mentor | Social proof section</title>
   </head>
@@ -60,7 +60,7 @@
     
     <div id="cabezara-2">
 
-      <div class="card-user">
+      <div class="card-user card-up-translate">
         <div class="card-top-user">
           <img src="./images/image-colton.jpg" alt="imagen del comprador de web"></img>
           <div>
@@ -80,33 +80,34 @@
       </div>
       
       <div class="card-user">
-        <img src="./images/image-irene.jpg" alt="imagen del comprador de web"></img>
-        <h6>Irene Roberts</h6>
-        <strong>Verified Buyer</strong>
-        <p>
+        <div class="card-top-user">
+          <img src="./images/image-irene.jpg" alt="imagen del comprador de web"></img>
+          <div>
+            <h6>Irene Roberts</h6>
+            <strong>Verified Buyer</strong>            
+          </div>
+        </div>
+        <p class="card-botom-user">
           "Customer service is always excellent and very quick turn around. Completely
           delighted with the simplicity of the purchase and the speed of delivery."        
-        </p>
+        </p>          
       </div>
       
-      <div class="card-user">
-        <div>
+      <div class="card-user card-down-translate">
+        <div class="card-top-user">
           <img src="./images/image-anne.jpg" alt="imagen del comprador de web"></img>
           <div>
             <h6>Anne Wallace</h6>        
             <strong>Verified Buyer</strong>
           </div>
         </div>
-        <p>
+        <p class="card-botom-user">
           "Put an order with this company and can only praise them for the very high
           standard. Will definitely use them again and recommend them to everyone!"
         </p>
       </div>
       
     </div>
-
-    <input class="buscar" />
-    <button>Google Seach</button>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
