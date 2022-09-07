@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="./style.css"
+      rel="stylesheet"
+    />
+    <title>
+      Clase de Formularios
+    </title>
+  </head>
+  <body>
+    <h1>Formularios</h1>
+    <main>
+      <!-- php ?=>  -->
+      <!-- action="enviar.php" -->
+
+      <form id="form" name="fomulario_acceso">
+        <input class="input" value="valor 1" placeholder="Input vacio" autofocus>  
+        <input class="checkbox" type="checkbox" checked>  
+        <input class="checkbox" type="radio">  
+        <input class="input" type="date">
+        <input class="input" type="color">
+        <!-- controlar informacion basico -->
+        <input class="input" type="email">
+        <!-- <input class="input" type="file"> -->
+        <input class="input" type="password">
+        
+        <textarea cols="80" rows="12">
+          Hola amigos aqui va un ejemplo de texto
+        </textarea>
+        <!-- temas de accesibilidad -->
+        <!-- tel, url, search -->
+        <input id="input_number" class="input" type="tel">
+        <input id="input_number" class="input" type="tel">
+        <input id="input_number" class="input" type="hidden">
+        <!-- boton de tipo submit -->
+
+        <input type="text" value="camion azul " spellcheck="true" />
+        <input type="text" value="camion azul " spellcheck="false" />
+
+        <labe>Tipo numerico</labe>
+        <label for="input_number">
+          Input tipo numero
+        </label>
+        <input id="input_number" min="10" max="30" value="10" class="input" type="number">
+        <input type="range">
+
+        <h2>
+           SELECTS
+        </h2>
+        <select name="lista_frutas">
+          <!-- magic numbers -->
+          <option value="uva">Uva</option>
+          <option>Manzana</option>
+          <option>Pera</option>
+        </select>
+
+        <h2>
+          Datalist
+        </h2>
+        <input type="text" list="lista">
+        <datalist id="lista">
+          <!-- magic numbers -->
+          <option>Uva</option>
+          <option>Uvon</option>
+          <option>U2</option>
+          <option>Manzana</option>
+          <option>Pera</option>
+        </datalist>
+
+        <fieldset>
+          <legend>Datos personales</legend>
+          <input placeholder="Edad">
+          <input placeholder="Nombre">
+          <input placeholder="Pais">
+          <input placeholder="">
+        </fieldset>
+        <input placeholder type="file"/>
+
+        <button type="reset">reset</button>
+        <button type="button">Close</button>
+        <button>Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>

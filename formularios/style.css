@@ -1,0 +1,37 @@
+/* resets de estilos de navegador */
+
+html, body {
+  font-size: 100%;
+  box-sizing: border-box;
+  background-color: azure;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.input{
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+  width: 300px;
+  font-size: 20px;
+  height: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+button{
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+  width: 150px;
+}
