@@ -1,0 +1,147 @@
+@import url(./fonts/index.css);
+
+/* :root{
+  font-family: 'Roboto', sans-serif;
+} */
+
+html, body{
+  box-sizing: border-box;
+  font-size: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  overflow-y: hidden;
+  line-height: 16px;
+}
+/* selector de css que indica que tome todos los elementos que contiene */
+*:before, *:after{
+  box-sizing: inherit;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+ol{
+  list-style-type: none;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu_items {
+  display: flex;
+  align-items: center;
+
+}
+
+.menu_items * {
+  margin: 0 8px;
+}
+
+.menu_dots {  
+  background-image: url('../assets/dots-menu.svg');
+  width: 25px;
+  height: 25px;
+}
+
+/* selector de clase */
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* # selector de clase tipo id */
+#buscador_principal {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid rgb(53, 53, 53);  
+  padding: 10px;
+  width: 50%;
+  border-radius: 16px;
+  /* width: 100%; */
+}
+
+#buscador_principal input {
+  padding: 8px;
+  flex-grow: 1;
+  margin: 0 10px;
+  border: transparent;
+}
+
+#buscador_principal::after{
+  content: '🎙️'  
+}
+
+#buscador_principal::before{
+  content: '🔎'  
+}
+
+.anuncio{
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.anuncio a {
+  color: blue;
+}
+
+.action {
+  height: 100px;
+}
+
+button{
+  border: transparent;
+  padding: 16px;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* button:hover{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;  
+} */
+
+button:active{
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+.profile{
+  background-color: yellow;
+  border-radius: 999px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  background-color: #f1f1f1;
+  font-size: 18px;
+}
+
+.pais{
+  border-bottom: 1px solid #d9dbdf;  
+  display: block;
+  padding: 20px;
+}
+
+.menu_secundario {
+  display: flex;
+  justify-content: space-around;
+}
