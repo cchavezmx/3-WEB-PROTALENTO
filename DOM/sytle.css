@@ -1,0 +1,14 @@
+.foto_demo {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+}
+
+#imagenes_content {
+  background-color: aqua;
+  height: 300px;
+  width: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
