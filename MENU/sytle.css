@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(6, 10, 25);
+  display: grid;
+  margin: auto;
+  color: white;
+}
+
+button, a {
+  padding: 16px 33px;
+  background-color: rgba(121, 116, 172, 0.866);
+  border: 1px solid transparent;
+  color: white;
+  border-radius: 16px;
+}
+
+button:hover {
+  background-color: rgb(183, 87, 183);
+  cursor: pointer;
+}
+
+input {
+  padding: 16px;
+  border-radius: 16px; 
+  margin-bottom: 30px;
+  border: 1px solid transparent;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+  align-items: center;  
+}
+
+a{
+  width: 70px;
+  text-decoration: none;  
+  background: white;
+  color: black;
+  font-weight: bold;
+}
+
+.show_menu {
+  visibility: hidden;
+}
+
+.btn_active {
+  background-color: rgb(16, 116, 222);
+}

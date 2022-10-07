@@ -1,0 +1,25 @@
+body {
+  background-color: #f2f2f2;
+  display: grid;
+  margin: auto;
+}
+
+button {
+  padding: 16px 33px;
+  background-color: rgba(121, 116, 172, 0.866);
+  border: 1px solid transparent;
+  color: white;
+  border-radius: 16px;
+}
+
+button:hover {
+  background-color: rgb(183, 87, 183);
+  cursor: pointer;
+}
+
+input {
+  padding: 16px;
+  border-radius: 16px; 
+  margin-bottom: 30px;
+  border: 1px solid transparent;
+}
