@@ -26,11 +26,11 @@ const elementosA = document.querySelectorAll('a')
 //   console.log(elementosA[i])
 // }
 
-// QUEDA VES QUE DEMOS CLICK A UN ELEMENTO QUITAR ALGUN ESTILO ANTERIOR
+// QUEDA VES QUE DEMOS CLICK A UN ELEMENTO QUITAR ALGUN ESTILO ANTERIOR}
 
 elementosA.forEach(function(elementoA){
-  elementoA.addEventListener('click', function(){    
-      const showMenu = elementoA.hasAttribute('class')      
+  elementoA.addEventListener('click', function(){
+    const showMenu = elementoA.hasAttribute('class')      
       // si tiene la clase
       if (showMenu) {
         // se la quitamos
@@ -38,7 +38,7 @@ elementosA.forEach(function(elementoA){
       } else {
         // se la añadimos
         elementoA.setAttribute('class', 'btn_active')
-      }
+      }      
   })
 })
 
