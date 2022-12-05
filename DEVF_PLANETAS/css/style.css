@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+:root {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color:  #131e3f;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+    margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html, body {
+    height: 100%;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+    font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+    isolation: isolate;
+}
+
+.background-video {
+    position: fixed;
+    object-fit: cover;
+    right: 0;
+    bottom: 0;
+    min-width: 100vw; 
+    min-height: 100vh;
+    z-index: -1;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #131e3fab;
+}
+
+/* .container {
+    background-color: rgb(236, 236, 236);
+    color: #131e3f;
+    height: 100%;
+} */
+
+.title-nav {
+    width: 100%;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.menu a {
+    text-decoration: none;
+    margin-inline-start: 6px;
+    color: white;
+    padding: 4px 16px;
+}
+
+.menu a:hover {
+    background-color: rgba(188, 205, 219, 0.692);    
+    border-radius: 3px;
+}
+
+.active {
+    border-radius: 0px;
+    border-bottom: 2px solid rgba(188, 205, 219, 0.692); ;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.img-container {
+    width: max-content;
+    padding: 20px;
+}
+
+.img-planet {
+    width: 500px;
+    height: 500px;
+    border-radius: 500px;
+}
+
+.planet-info {
+    width: max-content;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.planet-info > h2 {
+    font-size: 55px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.planet-info > p {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+
+.planet-info > div {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+}
+
+.button-options {
+    margin-block-end: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #131e3f91;
+    border-radius: 4px;
+    border: 2px solid rgba(82, 26, 173, 0.932);
+}
+
+.button-options:hover {
+    background-color: rgba(82, 26, 173, 0.356);
+    cursor: pointer;
+}
+
+.feactures-planet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.feacture-item {
+    margin: 0px 20px;
+    width: 210px;
+    height: 100px;
+    background-color: #131e3fab;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(82, 26, 173, 0.932);
+}

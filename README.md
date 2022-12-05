@@ -32,14 +32,14 @@ En este respositorio encontraras todas las practicas que se han realizado en el 
 
 <br/>
 
-- # **<a href="./cajero">CAJERO ATM ![icono](./jsicon.png)</a>**
+- # **<a href="./ATM">CAJERO ATM ![icono](./jsicon.png)</a>**
   - [x] manejo del DOM
   - [x] metodos de array
   - [x] localStorage y sessionStorage
 
 <br/>
 
-- # **<a href="./intro_html">JUEGO PIEDRA PAPEL O TIJERAS ![icono](./jsicon.png)</a>**
+- # **<a href="./PIEDRA_PAPEL_TIJERAS">JUEGO PIEDRA PAPEL O TIJERAS ![icono](./jsicon.png)</a>**
   - [x] manejo del DOM
   - [x] metodos de array
   - [x] Objetos
@@ -55,7 +55,7 @@ En este respositorio encontraras todas las practicas que se han realizado en el 
 
 <br/>
 
-- # **<a href="./devf-planetas">PLANETAS API ![icono](./jsicon.png) ![icono](./viteicon.png)</a>**
+- # **<a href="./DEVF_PLANETAS">PLANETAS API ![icono](./jsicon.png) ![icono](./viteicon.png)</a>**
   - [x] NODE, NPM Y VITE
   - [x] Async await / Promises
   - [x] Fetch

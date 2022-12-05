@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>The Planets</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="nav">
+                <div class="title-nav">
+                    <h1>The Planets</h1>
+                </div>
+                <div id="menu" class="menu">
+                    <!-- Aquí va el menu -->
+                </div>
+            </nav>
+            <main class="main">
+                <picture id="img-container" class="img-container">
+                <!-- 
+                    <img src="./public/img/none_planet.png" alt="imagen Aquí" class="img-planet"> -->
+                </picture>          
+                <section class="planet-info">
+                    <h2 id="title"></h2>
+                    <p id="description">
+                    </p>
+                    <div>
+                        <button class="button-options">Overiew</button>
+                        <button class="button-options">Internal Structure</button>
+                        <button class="button-options">Surface Geology</button>
+                    </div>
+                </section>           
+            </main>
+            <div class="feactures-planet">
+                <div class="feacture-item">
+                    <h4>Rotation Time</h4>
+                    <span></span>
+                </div>
+                <div class="feacture-item">
+                    <h4>Revolution Time</h4>
+                    <span></span>
+                </div>
+                <div class="feacture-item">
+                    <h4>Radius</h4>
+                    <span></span>
+                </div>
+                <div class="feacture-item">
+                    <h4>Average Temp</h4>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        
+            <video autoplay muted loop class="background-video">
+                <source src="./video/video3.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        <script type="module" src="/main.js"></script>
+    </body>
+</html>

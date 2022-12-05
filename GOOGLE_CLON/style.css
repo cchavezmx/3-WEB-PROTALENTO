@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body, html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  box-sizing: inherit;  
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0 8px;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+body {
+  overflow: hidden;
+  color: #70757a;
+  height: 100vh;
+  /* propiedades para modificar a los hijos */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
+}
+
+header {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-end;  
+}
+
+.menu_principal{
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  height: 40px;
+  width: 40px;
+  border-radius: 999px;
+  border: transparent;
+  text-align: center;
+  background-color: aquamarine;
+  margin: 0 8px;
+}
+
+.menu_btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 999px;
+  border: transparent;  
+  margin: 0 8px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  height: 5.75rem;
+  width: 17rem;
+}
+
+.busqueda {
+  width: 50%;
+  display: flex;
+  padding: 4px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 999px;
+}
+
+.busqueda input {
+  padding: 8px 16px;
+  margin-right: 2px;
+  padding-left: 4px;
+  font-size: 18px;
+  border: transparent;
+  width: 100%; 
+}
+
+.busqueda span:after {
+  content: '🎙️';
+  font-size: 25px;
+}
+
+.busqueda label:before{
+  content: '🔎';
+  font-size: 25px;
+}
+
+.acciones {
+  margin-top: 20px;
+}
+
+.acciones button {
+  background-color: #f8f9fa;
+  height: 36px;
+  border: transparent;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.acciones button:hover {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+footer {
+  background-color: #f2f2f2;
+}
+
+footer h5 {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;  
+  margin-left: 16px;
+}
+
+.pais {
+  border-bottom: 1px solid #dadce0;  
+  padding: 20px;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.links nav {
+  flex-basis: 50%;
+}
+
+.link_terminos {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 60rem) {
+  .links {
+    flex-direction: column;
+    align-items: center;
+  }  
+}
