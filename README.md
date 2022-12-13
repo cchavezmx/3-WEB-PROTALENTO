@@ -80,7 +80,19 @@ En este respositorio encontraras todas las practicas que se han realizado en el 
 
 <br/>
 
+- # **<a href="./react-101">REACT NO ES UN FRAMEWORK![icono](./reactico.png) ![icono](./html.png)</a>**
+
+  - [x] Instalando React sin Nodejs
+
+<br/>
+
 - # **<a href="./pokedex">RELOJ / POMODORO ![icono](./reactico.png) ![icono](./viteicon.png)</a>**
+
+  - [ ] **_PROXIMAMENTE_**
+
+<br/>
+
+- # **<a href="./pokedex">TIENDITA APP ![icono](./reactico.png) ![icono](./viteicon.png)</a>**
 
   - [ ] **_PROXIMAMENTE_**
 
