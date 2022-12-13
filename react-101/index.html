@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Hello React!</title>
+    <style>
+        .title {
+            font-size: 2rem;
+            color: red;
+        }
+    </style>
+
+    <script src="https://unpkg.com/react@^16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16.13.0/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+        const app = document.querySelector("#root")        
+      // React code will go here
+      const reactElement = React.createElement
+
+        //   React se basa en componentes
+        // cuando creamos componentes debe estar escritos en notación PasacalCase
+        const TitlePrincipal = ({ title, icon = "🤯" }) => {
+             // su propia logica y su propio estado
+            // return reactElement("h1", { className: 'title' }, title)
+            // jsx:  no html no es javascript
+            return (<h1 onClick={() => alert("Hola")} className="title">{title}{icon}</h1>)
+        }
+
+        // virutal DOM        
+        // ReactDOM.render(reactElement(Title, { title: "Buenas noches" }), app)
+        // ReactDOM.render(reactElement(
+        //     "div",
+        //     null,
+        //     [
+        //         reactElement(Title, { title: "Buenas noches", icon: '🚀' }),
+        //         reactElement(Title, { title: "Saludos" }),
+        //         reactElement(Title, { title: "Esto esta muy enrredado, no creen? 😂" })
+        //     ]),
+        //     app
+        //     )
+        ReactDOM.render(
+            <div>
+                <TitlePrincipal title="Es más facil con JSX" icon="🚀" />
+                <TitlePrincipal title="Soy una segunda etiqueta" />
+            </div>,
+            app
+        )      
+    </script>
+  </body>
+</html>
