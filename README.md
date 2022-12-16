@@ -88,12 +88,12 @@ En este respositorio encontraras todas las practicas que se han realizado en el 
 
 - # **<a href="./pomodoro-app">RELOJ / POMODORO ![icono](./reactico.png) ![icono](./viteicon.png)</a>**
 
-- [x] INSTALACION
-- [x] Instalar LINTER
-- [ ] material-tailwind
-- [x] useState, useEffect,
-- [x] Componentes
-- [x] PROPS: parents and childrens
+  - [x] INSTALACION
+  - [x] Instalar LINTER
+  - [ ] material-tailwind
+  - [x] useState, useEffect,
+  - [x] Componentes
+  - [x] PROPS: parents and childrens
 
 <br/>
 
