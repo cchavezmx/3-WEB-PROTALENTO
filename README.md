@@ -97,19 +97,24 @@ En este respositorio encontraras todas las practicas que se han realizado en el 
 
 <br/>
 
+- # **<a href="./TODO-APP">TODO APP ![icono](./reactico.png) ![icono](./viteicon.png)</a>**
+
+  - [x] Context y métodos para manejo de estado
+  - [x] Material UI
+
+<br/>
+
+- # **<a href="./pokedex">Buscador IMDB ![icono](./reactico.png) ![icono](./viteicon.png)</a>**
+
+  - [ ] **_PROXIMAMENTE_**
+
+## <br/>
+
 - # **<a href="./pokedex">TIENDITA APP ![icono](./reactico.png) ![icono](./viteicon.png)</a>**
 
   - [ ] **_PROXIMAMENTE_**
 
 <br/>
-
-- # **<a href="./pokedex">TODO APP ![icono](./reactico.png) ![icono](./viteicon.png)</a>**
-
-  - [ ] **_PROXIMAMENTE_**
-
-<br/>
-
----
 
 ## **EXTRA BONUS**
 
