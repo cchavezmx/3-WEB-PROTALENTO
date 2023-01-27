@@ -1,4 +1,6 @@
-![imagen](https://devf-website.s3.amazonaws.com/static/assets/img/logo-devf-white.svg)
+<p align="center">
+  <img src="DEVF_LOGO.svg" />
+</p>
 
 # **GENERACION 3WEB - PROTALENTO / DEV.F**
 
@@ -8,7 +10,7 @@ En este respositorio encontraras todas las practicas que se han realizado en el 
 
 # INTRO HTML Y JS ☕
 
-- # **<a href="./intro_html">HMTL u CSS</a>**
+- # **<a href="./intro_html">HMTL y CSS</a>**
 - # **<a href="./clon_google">Clon de Google ![icono](./html.png)</a>**
 - # **<a href="./">CLON Pinterest ![icono](./html.png)</a>**
 - # **<a href="./intro_javascript">INTRO A JS ![icono](./html.png)</a>**
@@ -104,17 +106,40 @@ En este respositorio encontraras todas las practicas que se han realizado en el 
 
 <br/>
 
-- # **<a href="./pokedex">Buscador IMDB ![icono](./reactico.png) ![icono](./viteicon.png)</a>**
+- # **<a href="./spa-react">Single Page App ![icono](./reactico.png) ![icono](./viteicon.png)</a>**
 
-  - [ ] **_PROXIMAMENTE_**
-
-## <br/>
-
-- # **<a href="./pokedex">TIENDITA APP ![icono](./reactico.png) ![icono](./viteicon.png)</a>**
-
-  - [ ] **_PROXIMAMENTE_**
+  - [x] **Teoria de SPA**
+  - [x] **Tailwind css**
 
 <br/>
+
+- # **<a href="./react-routes">React Rotuer ![icono](./reactico.png) ![icono](./viteicon.png)</a>**
+
+  - [x] react-router-dom
+  - [] Rutas Privadas y Rutas Públicas
+
+<br/>
+
+- # **<a href="https://github.com/cchavezmx/redux-class">Redux ![icono](./reactico.png) ![icono](./viteicon.png)</a>**
+
+  - [x] Introducción a REDUX
+
+<br/>
+
+- # **<a href="./pokedex">PRUEBA TÉCNICA NEXTJS ![icono](./reactico.png) ![icono](./viteicon.png)</a>**
+
+  - [ ] **_PROXIMAMENTE_**
+
+<br />
+
+---
+
+# Temas
+
+- ## [Arquitectura de modulos CSS](https://github.com/cchavezmx/Arquitectura-de-modulos-CSS)
+- ## [Guía - Aprendiendo SQL](https://github.com/cchavezmx/Aprendiendo-SQL)
+
+---
 
 ## **EXTRA BONUS**
 

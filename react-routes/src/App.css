@@ -1,0 +1,18 @@
+nav {
+  background-color: black;
+  width: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+nav li {
+  list-style: none;
+}
