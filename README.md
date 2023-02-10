@@ -130,7 +130,7 @@ En este respositorio encontraras todas las practicas que se han realizado en el 
 
 # Frontend Avanzado 🦾🦾🦾
 
-- # **<a href="./prueba-tec">PRUEBA TÉCNICA NEXTJS ![icono](./reactico.png) ![icono](./nextjs.png)</a>**
+- # **<a href="./prueba99">PRUEBA TÉCNICA NEXTJS ![icono](./reactico.png) ![icono](./nextjs.png)</a>**
 
   - [x] Next.js
   - [x] custom hooks
@@ -139,7 +139,7 @@ En este respositorio encontraras todas las practicas que se han realizado en el 
 
 <br />
 
-- # **<a href="./darkmod-test">Dark Mode ![icono](./reactico.png) ![icono](./nextjs.png)</a>**
+- # **<a href="./darkmod">Dark Mode ![icono](./reactico.png) ![icono](./nextjs.png)</a>**
 
   - [x] Next.js
   - [x] custom hooks
