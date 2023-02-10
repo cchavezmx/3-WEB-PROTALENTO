@@ -139,7 +139,7 @@ En este respositorio encontraras todas las practicas que se han realizado en el 
 
 <br />
 
-- # **<a href="./prueba-tec">Dark Mode ![icono](./reactico.png) ![icono](./nextjs.png)</a>**
+- # **<a href="./darkmod-test">Dark Mode ![icono](./reactico.png) ![icono](./nextjs.png)</a>**
 
   - [x] Next.js
   - [x] custom hooks
