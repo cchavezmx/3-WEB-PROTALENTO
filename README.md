@@ -126,9 +126,24 @@ En este respositorio encontraras todas las practicas que se han realizado en el 
 
 <br/>
 
-- # **<a href="./pokedex">PRUEBA TÉCNICA NEXTJS ![icono](./reactico.png) ![icono](./viteicon.png)</a>**
+---
 
-  - [ ] **_PROXIMAMENTE_**
+# Frontend Avanzado 🦾🦾🦾
+
+- # **<a href="./prueba-tec">PRUEBA TÉCNICA NEXTJS ![icono](./reactico.png) ![icono](./nextjs.png)</a>**
+
+  - [x] Next.js
+  - [x] custom hooks
+  - [x] Material UI
+  - [x] zustand
+
+<br />
+
+- # **<a href="./prueba-tec">Dark Mode ![icono](./reactico.png) ![icono](./nextjs.png)</a>**
+
+  - [x] Next.js
+  - [x] custom hooks
+  - [x] zustand
 
 <br />
 
@@ -138,6 +153,8 @@ En este respositorio encontraras todas las practicas que se han realizado en el 
 
 - ## [Arquitectura de modulos CSS](https://github.com/cchavezmx/Arquitectura-de-modulos-CSS)
 - ## [Guía - Aprendiendo SQL](https://github.com/cchavezmx/Aprendiendo-SQL)
+
+- ## [Teoria del Testing](./teoria-test)
 
 ---
 
