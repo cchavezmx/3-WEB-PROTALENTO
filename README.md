@@ -147,6 +147,14 @@ En este respositorio encontraras todas las practicas que se han realizado en el 
 
 <br />
 
+- # **<a href="./react-dic">Diccionario ![icono](./reactico.png) ![icono](./nextjs.png)</a>**
+
+  - [x] useRef ejemplo
+  - [x] consumo de api, desde serverless function
+  - [x] usando Elemento HTML `<audio>`
+
+<br />
+
 ---
 
 # Temas

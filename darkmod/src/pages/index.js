@@ -1,13 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from 'next/head'
-import { useCallback, useEffect, useState } from 'react'
-import { appStore } from '@/context/store'
+// import { useCallback, useEffect, useState, useMemo } from 'react'
+// import { appStore } from '@/context/store'
 import Footer from '@/Footer'
-import Switch from 'react-switch'
+import { useEffect, useState } from 'react'
+// import Switch from 'react-switch'
 
 export default function Home() {
 
-  const { dark, handledDarkMode, darkmode } = appStore() 
+  // const { dark, handledDarkMode, darkmode } = appStore() 
   // const [dark, setDark] = useState(false)
   
   // useEffect(() => {    
@@ -20,13 +21,37 @@ export default function Home() {
 
   // const toogle = () => setDark(!dark)
   // 
-  const [call, setCall] = useState(true)
-  const toogleC = useCallback(() => {
-    darkmode(dark)
-    // https://dmitripavlutin.com/react-throttle-debounce/
-    // array de dependencias de los HOOK cuando tiene que volver a renderizar sus valores internos 
-  }, [])
+  // const [call, setCall] = useState(true)
+  // // useMemo
+  // const toogleC = useCallback(() => {
+  //   console.log('callback')
+  //   console.log(dark)
+  //   // darkmode(dark)    
+  //   handledDarkMode(!dark)
+  //   // https://dmitripavlutin.com/react-throttle-debounce/
+  //   // array de dependencias de los HOOK cuando tiene que volver a renderizar sus valores internos 
+  // }, [])
 
+  const isWindow = typeof window !== 'undefined'
+  const [dark, setDark] = useState(false)
+  const toogleDark = () => setDark(!dark)
+  const handledDark = () => {
+    if (isWindow) {
+      const isDark = dark ? 'dark' : 'light'
+      console.log("🚀 ~ file: index.js:41 ~ handledDark ~ isDark:", isDark)
+      const root = window.document.documentElement
+      root.style.setProperty('--scheme', isDark)
+    }
+  }
+
+  useEffect(() => {    
+    if (isWindow) {
+     handledDark()
+    }
+  }, [dark])
+
+
+  
   return (
     <>
       <Head>
@@ -36,20 +61,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>        
-        <header className={darkmode(dark).style}>
+        <header>
           <h1>{
               dark 
               ? 'Dark mode activate'
               : 'Ligth mode activate'
             }</h1>
-          {/* <button onClick={() => toogle()}>{
-            dark ? 'Dark Mode' : 'Ligth Mode'
-          }</button> */}
+          <button onClick={toogleDark}>DARKS</button>
           {/* <button onClick={() => handledDarkMode(!dark)}>Store Button</button> */}
-          <Switch onChange={() => handledDarkMode(!dark)?.style} checked={dark} />
+          {/* <Switch onChange={() => handledDarkMode(!dark)?.style} checked={dark} /> */}
         </header>
-        <main className={darkmode(dark).style}>
-          <img className='animation-rotate' src={darkmode(dark).src}></img>
+        <main>
+          {/* <img className='animation-rotate' src={darkmode(dark).src}></img> */}
         </main>
         <Footer/>
       </div>

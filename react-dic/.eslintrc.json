@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "standard"
+  ],
+  "rules": {
+    "no-trailing-spaces": [2, { "skipBlankLines": true }],
+    "no-unused-vars": "error",
+    "no-console": "warn",
+    "no-tabs": "error",
+    "eslint/no-empty-function": "off",
+    "no-duplicate-imports": "error",
+    "no-useless-return": "error",
+    "eol-last": ["error", "always"]
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "darkmod-test",
+  "name": "react-dictionari",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,12 +10,14 @@
   },
   "dependencies": {
     "@next/font": "13.1.6",
-    "eslint": "8.33.0",
+    "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
+    "html2canvas": "^1.4.1",
     "next": "13.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-switch": "7.0.0",
-    "zustand": "4.3.2"
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
   }
 }
