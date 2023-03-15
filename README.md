@@ -157,6 +157,40 @@ En este respositorio encontraras todas las practicas que se han realizado en el 
 
 ---
 
+## Intro a Backend + SQL
+
+- # **<a href="./veterinaria-api">CRUD EXPRESS ![icono](./express.png) </a>**
+
+  - [x] usando Express
+  - [x] Cors instalación
+  - [x] Body Parser
+  - [x] Conexión a base de datos Postgres
+  - [x] CRUD
+  - [x] Middlewares básicos
+
+<br />
+
+- # **<a href="./veterinaria-api">Vite App Formulario ![icono](./viteicon.png) </a>**
+
+  - [x] Proyecto de vite usando nuestro propio backend
+  - [x] Formulario para añaadir mascotas
+  - [x] React
+  - [x] Bulma
+  - [x] fetch
+  - [x] useState
+
+<br />
+
+- # **<a href="./veterinaria-api">NextJS + Prisma JS ![icono](./nextjs.png) </a>**
+
+  - [x] Proyecto de NextJS usando primsa JS
+  - [x] Serverless functions de NextJS
+  - [x] Formulario para añaadir mascotas
+
+<br />
+
+---
+
 # Temas
 
 - ## [Arquitectura de modulos CSS](https://github.com/cchavezmx/Arquitectura-de-modulos-CSS)
