@@ -189,6 +189,16 @@ En este respositorio encontraras todas las practicas que se han realizado en el 
 
 <br />
 
+- # **<a href="./mongo-clase">MONGO + MONGO EXPRESS ![icono](./mongo.png) ![icono](./express.png) </a>**
+
+  - [x] Instalación de Mongoose
+  - [x] Instalación de Mongo Express
+  - [x] Conexión a base de datos Mongo
+  - [x] CRUD
+  - [x] Middlewares básicos
+
+<br />
+
 ---
 
 # Temas
