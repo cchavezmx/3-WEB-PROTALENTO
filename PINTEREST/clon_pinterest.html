@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+
+    * {
+      margin: 0;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #f2f2f2;
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    main {
+      display: grid;      
+      gap: 15px;
+      padding: 10px;
+    }
+
+    .item {
+      background-color: indigo;
+      height: 100%;
+      border-radius: 18px;
+      color: white;
+      display: grid;
+      align-items: flex-end;      
+    }
+    
+    .item img {
+      width: 100%;
+      border-radius: 18px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    header {
+      background-color: indigo;
+      color: white;
+      width: 100%;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    header input {
+      margin-left: 10px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      width: 300px;
+    }
+
+    
+    @media  (max-width: 640px) {
+      main {
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      header {
+        display: none
+      }
+    }          
+        
+        
+    @media  (min-width: 640px)  {
+      main {
+        grid-template-columns: repeat(2, 300px);
+      }
+      
+    }
+    
+    @media  (min-width: 1024px)  {
+      main {
+        grid-template-columns: repeat(4, 300px);
+      }
+      
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Responsive Grid</h1>
+    <input type="search" id="toggle" place="Buscar...">
+  </header>
+  <main>
+    <picture class="item">
+      <img src="https://i.pinimg.com/236x/06/92/1d/06921d3eaa1018ae8e81454dbd5de6bc.jpg" alt="">
+    </picture>
+    <picture class="item">
+      <img src="https://i.pinimg.com/236x/10/59/65/10596579fcc3e6949d9b594a4afee25a.jpg" alt="">
+    </picture>
+    <picture class="item">
+      <img src="https://i.pinimg.com/236x/b9/44/ec/b944ec0f3f71456610e562e98b37ac57.jpg" alt="">
+    </picture>
+    <picture class="item">
+      <img src="https://i.pinimg.com/236x/af/1b/e8/af1be8473085d91d9b97aa4b1b9e0a94.jpg" alt="">
+    </picture>
+    <picture class="item">
+      <img src="https://i.pinimg.com/736x/09/60/25/0960257c8069456fb483c015a83e9e5c.jpg" all="">
+    </picture>
+    <picture class="item">
+      <img src="https://i.pinimg.com/236x/b0/f8/73/b0f873cf8ea5cd1366ddbae551eeee87.jpg" alt="">
+    </picture>
+    <picture class="item">
+      <img src="https://i.pinimg.com/236x/fa/f4/29/faf4296223192c5b988633de6d058815.jpg" alt="">
+    </picture>
+    <picture class="item">
+      <img src="https://i.pinimg.com/236x/00/21/89/0021898571d359255fd49fe02468256f.jpg" alt="">
+    </picture>
+    <picture class="item">
+      <img src="https://i.pinimg.com/474x/85/db/50/85db501e54ba3007ef61e327b51b764f.jpg" alt="">
+    </picture>
+    <picture class="item">
+      <img src="https://i.pinimg.com/236x/8f/37/14/8f3714fb166f6d1f0cd001719ad38095.jpg" alt="">
+    </picture>
+  </main>
+</body>
+</html>

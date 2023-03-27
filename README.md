@@ -12,7 +12,7 @@ En este respositorio encontraras todas las practicas que se han realizado en el 
 
 - # **<a href="./intro_html">HMTL y CSS</a>**
 - # **<a href="./clon_google">Clon de Google ![icono](./html.png)</a>**
-- # **<a href="./">CLON Pinterest ![icono](./html.png)</a>**
+- # **<a href="./PINTEREST">CLON Pinterest ![icono](./html.png)</a>**
 - # **<a href="./intro_javascript">INTRO A JS ![icono](./html.png)</a>**
 
 <br/>
