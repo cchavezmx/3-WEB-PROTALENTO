@@ -201,6 +201,24 @@ En este respositorio encontraras todas las practicas que se han realizado en el 
 
 ---
 
+## FULLSTACK
+
+- # <a href="./fylo-api">API FYLO - CLOUDINARY <img src="./cloud.png" alt="icono" width="60" height="40"> <img src="./express.png" alt="icono" width="40" height="40"></a>
+
+  - [x] Usando Multer para subir archivos
+  - [x] Configuración de Cloudinary
+
+<br />
+
+- # <a href="./upload-front">APP FYLO <img src="./nextjs.png" alt="icono" width="40" height="40"></a>
+
+  - [x] Usando Multer para subir archivos
+  - [x] Configuración de Cloudinary
+
+<br />
+
+---
+
 # Temas
 
 - ## [Arquitectura de modulos CSS](https://github.com/cchavezmx/Arquitectura-de-modulos-CSS)
